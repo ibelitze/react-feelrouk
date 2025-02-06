@@ -111,7 +111,7 @@ class PrimerPaso extends Component {
     }
 
     obtenerDireccion( lat, lng ) {
-        const url = 'https://maps.googleapis.com/maps/api/geocode/json?latlng=' + lat + ',' + lng + '&key=AIzaSyCVyB7xjfw1zZ-ZIuHM5G7pyENo5_lwk_A';
+        const url = 'https://maps.googleapis.com/maps/api/geocode/json?latlng=' + lat + ',' + lng + '&ky=';
         axios.post( url ).then( ( res ) => {
             this.setState( {
                 localizacion: res.data.results[ 0 ].formatted_address,
