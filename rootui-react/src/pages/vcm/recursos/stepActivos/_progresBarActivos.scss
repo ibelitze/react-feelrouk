@@ -1,0 +1,52 @@
+.indexedStep {
+    color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    background-color: rgba(211, 211, 211, 0.8);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.indexedStep.accomplished {
+    background-color: rgb(236, 129, 5);
+}
+.label-step {
+    padding-left: 25px;
+    position: absolute;
+    width: 185px;
+    height: 25px;
+    font-size: 18px;
+    background-color: #fff;
+    left: 40px;
+    bottom: -18px;
+}
+.RSPBprogressBar{
+    height: 2px !important;
+    width: 90%;
+}
+.RSPBprogressBar .RSPBprogression {
+    background-color: rgb(236, 129, 5) !important;
+    height: 2px !important;
+    z-index: -4 !important;
+}
+.RSPBprogressBar{
+    margin: 15px 0px;
+    z-index: -5 !important;
+}
+.txt-orange{
+    color: #EE8643 !important;
+}
+.txt-blue{
+    color: #0C0C3D !important;
+}
+.bg-blue, .RSPBprogression.bg-blue{
+    font-weight: 500;
+    background-color: #0C0C3D !important;
+    z-index: -3 !important;
+}
+.container-progress{
+    max-width: 1250px;
+}

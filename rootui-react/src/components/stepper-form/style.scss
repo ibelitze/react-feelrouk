@@ -1,0 +1,167 @@
+@import "../../../common-assets/css/variables";
+@import "../../../common-assets/css/rootui-parts/feelrouk-style";
+
+
+.formulario-stepper {
+	min-height: 500px;
+}
+
+.boton-linkedin {
+	background-color: #0B65C3;
+	color: #fff;
+	margin-right: 3px;
+	padding: 6px 20px;
+    height: 32px;
+    border-radius: 40px;
+}
+
+.boton-adjuntar {
+	background-color: $azul;
+	color: #fff;
+	margin-right: 3px;
+	padding: 8px;
+    height: 32px;
+    width: 119px;
+}
+
+.align-center {
+	align-items: center;
+	align-self: center;
+}
+
+h3, p {
+	font-size: 14px;
+}
+
+h3 {
+	
+    font-weight: 600;
+}
+
+.texto-naranja {
+	color: $naranja;
+}
+
+.no-margins {
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn-feelrouk-redondo {
+	background-color: $azul;
+	margin-right: 3px;
+	padding: 6px 40px;
+    height: 32px;
+    color: #fff;
+    border-radius: 14px;
+    border: none;
+    font-size: 14px;
+
+	&:hover {
+		background-color: $azul;
+		color: #fff;
+	}
+	svg {
+		color: #fff;
+	}
+}
+
+.boton-googlemaps {
+	background: #fff;
+	border: none;
+	padding-top: 5px;
+
+	svg {
+		color: red;
+    	width: 30px !important;
+    	height: 22px;
+	}
+}
+
+.boton-googlemaps:focus, .boton-googlemaps:active, .boton-googlemaps:hover {
+	background: #fff !important;
+	border: none;
+}
+
+.pac-target-input {
+	height: 36px;
+	width: 85%;
+    padding: 7.5px 17px 9px;
+    background-color: #fbfcfc;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid gray;
+}
+
+.pac-target-input::active, .pac-target-input::focus {
+	border: none;
+}
+
+.vista-previa {
+	border: 1px solid gray;
+
+	h1 {
+		display: flex;
+	    align-self: center;
+	    margin: 0px !important;
+	    font-weight: bold;
+	}
+}
+
+.input-visualizacion {
+	display: block;
+
+	p {
+		font-weight: 500;
+	}
+}
+
+.content-vistaprevia {
+	display: flex;
+
+	img {
+		margin-right: 16px;
+	}
+}
+
+.content-requisitos {
+	display: flex;
+
+	.requisitos-card {
+	    background: #F5F5F5;
+	    padding: 6px 20px;
+	    border-radius: 20px;
+	}
+}
+
+.div-requisitos {
+	display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 6px;
+    background: #F5F5F5;
+    margin: 5px 15px;
+    text-align: center;
+
+    p {
+    	margin: 0 auto;
+    	font-weight: 500;
+    }
+
+    .btn-add-permiso svg {
+    	color: $azul;
+    }
+}
+
+.datepickers {
+	display: grid;
+
+	.react-datepicker-wrapper {
+		display: block;
+	}
+
+	#inicio-publicacion {
+		border: 1px solid #d3d0d0;
+		width: 100%;
+	}
+}

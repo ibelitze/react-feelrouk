@@ -1,0 +1,23 @@
+.btn-invert-feelrouk {
+    padding: 5px 39px;
+    min-height: 33px;
+    min-width: 272px;
+    border-radius: 14px;
+    font-size: 14px;
+    background-color:#fff;
+    color: #EE8643 !important;
+    border:  1px solid #EE8643;
+    &:hover{
+        background-color:#fff;
+        color: #EE8643 !important;
+    }
+}
+.btn-feelrouk-naranja2{
+    color: #fff !important;
+}
+.btn-focus:focus{
+    box-shadow: none;
+}
+th{
+    border: none !important;
+}

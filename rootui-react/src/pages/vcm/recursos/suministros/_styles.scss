@@ -1,0 +1,22 @@
+.container-sum{
+    margin-top: 50px;
+    .recuadro-info-formulario{
+        margin: 15px 0px;
+        padding: 30px 45px;
+        border-radius: 10px;
+    }
+    h3{
+        font-weight: 600;
+    }
+}
+@media only screen and (max-width: 1023px) { 
+    .container-sum{
+        .input-hcm-formulario{
+            width: 100%;
+        }
+        .form-group{
+            margin-bottom: 25px;
+        }
+    }
+    
+}

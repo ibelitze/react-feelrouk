@@ -1,0 +1,9 @@
+.carga-tag {
+    width: 100%;
+    & div { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+

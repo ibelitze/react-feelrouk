@@ -1,0 +1,26 @@
+.react-kanban-card__description{
+    padding: 0;
+}
+.kanban-card-body{
+    position: relative;
+}
+.kanban-card-body small{
+    border-bottom: 1px solid #dcdcdc;
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+    display: block;
+    padding: 7px 0px;
+}
+.kanban-card-body__type{
+    background-color: #0c0c3d;
+    text-align: center;
+    line-height: 1.5;
+    height: 21px;
+    width: 100%;
+    color: #fff;
+
+}
+.kanban-card-body__description{
+    padding: 15px 25px;
+}

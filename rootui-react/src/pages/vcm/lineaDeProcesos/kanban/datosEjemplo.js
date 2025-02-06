@@ -1,0 +1,70 @@
+export const pasos = [
+    {
+        titulo: "Paso 1",
+        recursos: [
+            {   
+                nombre: "MOD 1",
+                tipo: "mod",
+                dependencias: "ejemplo",
+                detenciones: "10 horas",
+                costo: 500,
+                nominal: "500 kg/h",
+                esperada: "500 kg/h",
+            },
+            {   
+                nombre: "Activo 1",
+                tipo: "activo",
+                dependencias: "ejemplo",
+                detenciones: "5 horas",
+                costo: 200,
+                nominal: "500 kg/h",
+                esperada: "500 kg/h",
+            },
+            {   
+                nombre: "MOD 2",
+                tipo: "mod",
+                dependencias: "ejemplo",
+                detenciones: "15 horas",
+                costo: 400,
+                nominal: "500 kg/h",
+                esperada: "500 kg/h",
+            },
+        ],
+    },
+    {
+        titulo: "Paso 2",
+        recursos: [
+            {   
+                nombre: "MOD 3",
+                tipo: "mod",
+                dependencias: "ejemplo",
+                detenciones: "2 horas",
+                costo: 100,
+                nominal: "200 kg/h",
+                esperada: "200 kg/h",
+            },
+            {   
+                nombre: "Activo 2",
+                tipo: "activo",
+                dependencias: "ejemplo",
+                detenciones: "50 horas",
+                costo: 1000,
+                nominal: "100 kg/h",
+                esperada: "100 kg/h",
+            },
+            {   
+                nombre: "Activo 3",
+                tipo: "activo",
+                dependencias: "ejemplo",
+                detenciones: "15 horas",
+                costo: 400,
+                nominal: "500 kg/h",
+                esperada: "500 kg/h",
+            },
+        ],
+    },
+    {
+        titulo: "Paso 3",
+        recursos: [],
+    },
+];

@@ -1,0 +1,60 @@
+@import "../../../common-assets/css/variables";
+
+.feelrouk-modal {
+
+	.modal-dialog {
+    	max-width: 540px;
+	}
+
+	.modal-header {
+		align-items: center;
+    	text-align: center;
+    	justify-content: center;
+	}
+
+	.h4 {
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.tiempo-recorrido {
+		display: grid;
+		align-items: center;
+		justify-content: center;
+		margin: 15px auto;
+		border-radius: 50%;
+	    max-width: 120px;
+	    height: 120px;
+	    border: 1px solid $azul;
+	}
+
+	.numero {
+		text-align: center;
+    	font-size: 50px;
+    	max-height: 60px;
+	}
+
+	.segundos {
+		text-align: center;
+		margin-bottom: 10px;
+    	font-weight: bold;
+	}
+
+	.modal-footer {
+		justify-content: center;
+	}
+
+	.cerrar-sesion {
+		background: $azul;
+		border-radius: 20px;
+    	border: none;
+    	font-size: 14px;
+	}
+
+	.seguir-sesion {
+		background: $naranja;
+    	border-radius: 20px;
+    	border: none;
+    	font-size: 14px;
+	}
+}

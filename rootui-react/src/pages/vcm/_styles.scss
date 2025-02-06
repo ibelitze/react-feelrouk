@@ -1,0 +1,36 @@
+.layout-vcm{
+    min-height: 83vh;
+    & section{
+        max-width: 1300px;
+        margin-left: 100px;
+    }
+    *{
+        color: #0C0C3D;
+    }
+    & > img{
+        position: absolute;
+        width: 100vw;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        height: 200px;
+    }
+    & > .fixing{
+        height: 190px;
+    }
+    & .table th, .table td{
+        border-color: #0c0c3d94;
+        color: #0C0C3D;
+    }
+    
+    .txt-orange{
+        color: #EE8643 ;
+    }
+    .btn-blue{
+        background-color: #0c0c3d;
+        color: #fff !important;
+    }
+    .btn-blue:disabled{
+        background-color: #a2a2a3;
+    }
+}

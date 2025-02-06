@@ -1,0 +1,23 @@
+@import "../../../common-assets/css/variables";
+@import "../../../common-assets/css/rootui-parts/profile";
+
+.extra {
+	max-height: 800px;
+
+	.modal-body {
+		overflow-y: scroll;
+		max-height: 650px;
+	}
+}
+
+.card-body {
+	.col-auto {
+		width: 100%;
+	}
+}
+
+.users > svg {
+	color: $naranja;
+	width: 32px !important;
+    height: 17px !important;
+}

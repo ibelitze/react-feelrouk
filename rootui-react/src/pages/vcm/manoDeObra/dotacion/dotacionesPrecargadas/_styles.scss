@@ -1,0 +1,32 @@
+.accordion-button{
+    width: 100%;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #0C0C3D;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 13px;
+    background-color: #0C0C3D;
+    color: #fff;
+    &.collapsed{
+        background-color: #fff;
+        color: #0C0C3D;
+    }
+}
+.dotaciones-precargadas-resumen{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    & div{
+        width: 50%;
+    }
+    & p {
+        margin: 10px 0px;
+    }
+}
+.txt-red{
+    color: #FF0000;
+}
+.txt-green{
+    color: #00FF00;
+}

@@ -1,0 +1,70 @@
+@import "../../../common-assets/css/variables";
+@import "../../../common-assets/css/rootui-parts/feelrouk-style";
+
+.indexedStep {
+    color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    background-color: rgba(211, 211, 211, 0.8);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.indexedStep.accomplished {
+    background-color: rgba(0, 116, 217, 1);
+}
+
+.RSPBprogressBar {
+    height: 4px !important;
+    width: 90%;
+}
+
+.dataLabel {
+    position: absolute;
+    width: 110px;
+    height: 20px;
+    top: 32px;
+
+    p {
+        color: $azul;
+    }
+}
+
+.dataLabel1 {
+    position: absolute;
+    width: 110px;
+    height: 20px;
+    top: 32px;
+    left: -22px;
+
+    p {
+        color: $azul;
+    }
+}
+
+.dataLabel2 {
+    position: absolute;
+    width: 110px;
+    height: 20px;
+    top: 32px;
+    left: -35px;
+
+    p {
+        color: $azul;
+    }
+}
+
+.dataLabel3 {
+    position: absolute;
+    width: 130px;
+    height: 20px;
+    top: 32px;
+    left: -50px;
+
+    p {
+        color: $azul;
+    }
+}

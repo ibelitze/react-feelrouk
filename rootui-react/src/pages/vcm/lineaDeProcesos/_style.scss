@@ -1,0 +1,249 @@
+.container-ldp{
+    margin: 50px 40px 0px ;
+    & h3 {
+        font-weight: 600;
+    }
+    .version-botones{
+        & > button{
+            margin: 0px 10px;
+        }
+    }
+    .btn-white{
+        border: 1px solid #0c0c3d;
+    }
+    & section{
+        margin: 0 !important;
+    }
+    input[type=range]{
+        -webkit-appearance: none;
+        border-radius: 10px;
+        height: 4px;
+        width: 100%;
+        display: block;
+    }
+    /* Special styling for WebKit/Blink */
+    input[type=range]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        background: #EE8643;
+        cursor: pointer;
+        margin: 0px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+    }
+    
+    /* All the same stuff for Firefox */
+    input[type=range]::-moz-range-thumb {
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        background: #EE8643;
+        cursor: pointer;
+    }
+    
+    /* All the same stuff for IE */
+    input[type=range]::-ms-thumb {
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        background: #EE8643;
+        cursor: pointer;
+    }
+}
+.version-filtrar{
+    padding: 15px 20px;
+}
+.linea-title{
+    font-weight: 900;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    & span{
+        font-weight: 400;
+        font-size: 20px;
+    }
+}
+.version-resumen{
+    padding: 12px 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+.version-resumen__item{
+    height: 51px;
+    width: 68px;
+    background-color: #0c0c3d;
+    color: #fff;
+    border-radius: 5px;
+    line-height: 1.4;
+    text-align: center;
+    padding-top: 3px;
+    margin: 0px 8px;
+    & span{
+        font-size: 12px;
+    }
+    & .dato{
+        font-size: 20px;
+        font-weight: 700;
+        color: #fff;
+    }
+}
+.version-resumen__velocidad{
+    width: 111px;
+    height: 51px;
+    text-align: center;
+    line-height: 1.4;
+    margin: 0px 8px;
+    & span{
+        font-size: 12px;
+        color: #dcdcdc;
+    }
+    & .dato{
+        color: #0c0c3d;
+        font-size: 20px;
+        font-weight: 900;
+    }
+}
+.productos-asociados-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.productos-asociados-search__input{
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: 17px;
+}
+.select-linea{
+    border: none;
+    border-bottom: 1px solid #dcdcdc;
+    background-color: transparent;
+}
+.version-colores{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    & span{
+        border-radius: 50%;
+        height: 23px;
+        display: block;
+        width: 23px;
+        margin: 5px;
+    }
+    & p {
+        display: flex;
+        align-items: center;
+        margin: 7px;
+        font-size: 14px;
+    }
+}
+.version-colores__yellow{
+    background-color: #f2b305;
+}
+.version-colores__green{
+    background-color: #00d38b;
+}
+.version-colores__red{
+    background-color: #ee4343;
+}
+
+/*     Crear Recurso      */
+.container-crear-recurso{
+    margin: 40px 50px 0px;
+}
+.container-title-recurso{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    h1{
+        font-weight: 600;
+        margin-bottom: 0px;
+    }
+    img {
+        margin-right: 20px;
+    }
+    p{
+        margin: 0;
+        font-size: 14px;
+    }
+}
+.container-type-recurso{
+    border-bottom: 1px solid #0C0C3D;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    h2{
+        color: #EE8643;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    label{
+        margin-bottom: 0px;
+    }
+    & > div {
+        display: flex;
+        align-items: center;
+        select {
+            width: 200px;
+            height: 35px;
+            border: 1px solid #0C0C3D;
+            border-radius: 5px;
+            text-align: center;
+            outline: none;
+            margin-right: 15px;
+            margin-top: 0;
+        }
+    }
+}
+@media only screen and (max-width: 1365px) {  
+    .container-ldp{
+        margin: 0px;
+        .version-botones{
+            button{
+                margin-top: 15px;
+            }
+        }
+    }
+    .comment{
+        width: 90%;
+    }
+    .rango{
+        width: 235px;
+    }
+    .version-colores{
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
+        p{
+            min-width: 128px;
+        }
+    }
+    .container-linea{
+        padding: 10px;
+    }
+    
+}
+@media only screen and (max-width: 1023px) { 
+    .container-crear-recurso{
+        margin: 0;
+    }
+    .label-step{
+        display: none;
+    }
+    .RSPBprogressBar{
+        width: 85% !important;
+        margin-left: 23px !important;
+    }
+    .container-form{
+        flex-direction: column;
+        form{
+            width: 100% !important;
+        }
+        & > div{
+            width: 100% !important;
+        }
+    }
+}

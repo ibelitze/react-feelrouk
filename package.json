@@ -1,0 +1,19 @@
+{
+  "name": "workspace-react",
+  "version": "1.0.0",
+  "description": "Feelrouk Workspace CI/CD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/feelrouk/workspace-react.git"
+  },
+  "author": "Webtiginoso - Soluciones Web & TI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/feelrouk/workspace-react/issues"
+  },
+  "homepage": "https://gitlab.com/feelrouk/workspace-react#readme"
+}

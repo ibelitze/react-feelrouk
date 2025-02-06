@@ -1,0 +1,56 @@
+.horario-editar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.modal-content{
+    width: 700px !important;
+}
+.container-horario{
+    margin: 25px;
+    padding: 0px 15px;
+    border: 1px solid #EE8643;
+    border-radius: 7px
+}
+.title-modal{
+    font-weight: 600;
+    color: #EE8643;
+    border-bottom: 1px solid #0C0C3D;
+    padding-bottom: 15px;
+}
+.modal-backdrop{
+    background: linear-gradient(180deg, #0C0C3D 0%, rgba(12, 12, 61, 0) 100%);
+}
+.modal{
+    top: 100px;
+    left: -110px;
+    & table {
+       & * {
+        color: #0C0C3D !important;
+       }
+    }
+}
+.btn-organge{
+    background-color: #EE8643;
+    color: #fff !important;
+}
+.horario-modal{
+    padding: 15px 30px 0px;
+}
+.input-horario{
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid #0C0C3D;
+}
+.cols{
+    padding: 15px 50px;
+    border-right: 1px solid #0C0C3D;
+    margin: 10px 0px 30px;
+}
+.cols:last-child{
+    border: none;
+}
+.form-group{
+    margin-bottom: 50px;
+}

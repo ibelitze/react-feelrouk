@@ -1,0 +1,233 @@
+.containerRango{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.container-checkbox{
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+    align-items: center;
+    & label{
+        margin: 0;
+    }
+}
+.rango{
+    width: 350px;
+    & label{
+        font-weight: 600;
+    }
+}
+.table button.btn-blue{
+    background-color: #0C0C3D;
+    color: #fff;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+}
+.nav-item{
+    width: 140px;
+}
+.title-primary{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+    & h1{
+        font-weight: 600;
+    }
+}
+.btn-orange{
+    background-color: #EE8643;
+    color: #fff !important;
+}
+.nav-tabs button.nav-link{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #9090e7;
+    font-weight: 400;
+    border-bottom: 2px solid #6670804D;
+    background-color: #fff;
+}
+.nav-tabs button.nav-link.active{
+    color: #0C0C3D;
+    font-weight: 600;
+    border-bottom: 2px solid #EE8643;
+}
+.title-versiones{
+    font-weight: 600;
+}
+.table .btn{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.rangoTolerancia{
+    margin: 40px auto;
+    width: 98%;
+    padding: 15px 20px;
+    box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.1);
+    & p{
+        margin: 0;
+    }
+    & h5{
+        margin: 0;
+    }
+}
+.search-lineas{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 50px 0px 55px;
+}
+.buscador-tabla{
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+    border: 1px solid #dcdcdc;
+    & div{
+        background-color: #F6F6F6;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end;
+        height: 50px;
+        & button{
+            margin-right: 20px;
+        }
+    }
+}
+.comment{
+    width: 49%;
+}
+.comment-container{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.color-left{
+    background-color: #F3F3F3;
+    & h5{
+        color: #EE8643;
+    }
+}
+.position-right{
+    align-self: flex-end;
+    & h5{
+        color: #00D3D3;
+    }
+    & h5,p{
+        text-align: end;
+    }
+}
+.btn-green{
+    background-color: #5AC158;
+}
+.btn-yellow{
+    background-color: #E7AE1E;
+}
+.btn-red{
+    background-color: #E74040;
+}
+.comment-title{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+    & span{
+        font-style: italic;
+        font-size: 10px;
+        font-weight: 400;
+        padding: 0;
+        margin: 0;
+    }
+}
+.comment-content{
+    margin-bottom: 0;
+}
+.comments-container{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dcdcdc;
+}
+.new-comment{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 20px 10px;
+    & button{
+        align-self: flex-end;
+        margin: 5px;
+    }
+}
+.container-linea{
+    width: 100%;
+    background-color: #F6F6F6;
+    padding: 20px 40px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.linea-tiempo{
+    width: 80%;
+    min-height: 500px;
+    border-left: 2px solid #0C0C3D;
+}
+.container-item-linea{
+    position: relative;
+    padding: 0px 15px;
+    margin: 30px 0px;
+    & .circle{
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        background-color: #00D3D3;
+        position: absolute;
+        top: 2px;
+        left: -11px;
+    }
+    & div h3, span{
+        margin: 0;
+    }
+    & span{
+        color: #8d8d8d;
+    }
+}
+
+@media only screen and (max-width: 1919px) {  
+    .layout-vcm {
+        & .container-section{
+            margin: 0px auto;
+        }
+    }
+}
+@media only screen and (max-width: 1365px) {  
+    .layout-vcm {
+        & .container-section{
+            padding: 0px 15px;
+        }
+    }
+}
+@media only screen and (max-width: 1023px) {  
+    .layout-vcm {
+        .title-primary, .search-lineas, .containerRango, .container-linea {
+            flex-direction: column;
+        }
+        .version-colores{
+            flex-direction: row;
+            p{
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+        .version-resumen{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+}

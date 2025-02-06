@@ -1,0 +1,36 @@
+.nueva-ldp{
+    padding: 40px 10px 0px 40px;
+    & > h1 > img{
+        margin-right: 30px;
+    }
+    & h2{
+        margin-top: 35px;
+        margin-bottom: 35px;
+        color: #EE8643;
+    }
+    & h4{
+        font-weight: 600;
+    }
+}
+.agregar-pasos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pasos-tabla{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+@media only screen and (max-width: 1365px) {
+    .nueva-ldp{
+        padding: 15px 0px 0px;
+    }
+    .cols{
+        padding: 15px;
+        & h2 {
+            margin-top: 0 !important;
+        }
+    }
+}

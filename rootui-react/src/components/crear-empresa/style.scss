@@ -1,0 +1,19 @@
+@import "../../../common-assets/css/variables";
+@import "../../../common-assets/css/rootui-parts/feelrouk-style";
+
+h2 {
+	font-weight: bold;
+}
+
+.flex {
+	display: flex;
+}
+
+label {
+	margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.error {
+	color: #f16767;
+}

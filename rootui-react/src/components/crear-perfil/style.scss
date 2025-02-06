@@ -1,0 +1,84 @@
+@import "../../../common-assets/css/variables";
+@import "../../../common-assets/css/rootui-parts/feelrouk-style";
+
+h2 {
+	font-weight: bold;
+}
+
+.flex {
+	display: flex;
+}
+
+.reclutamiento-dropdown {
+	width: 100%;
+	padding: 0px !important;
+
+	button {
+		width: 100%;
+	}
+}
+
+label {
+	margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.editor-estilos {
+	min-height: 200px;
+}
+
+.div-requisitos {
+	display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 6px;
+    background: #F5F5F5;
+    margin: 5px 15px;
+    text-align: center;
+
+    p {
+    	margin: 0px 10px 0px 10px;
+    	font-weight: 500;
+    }
+
+    .btn-add-permiso svg {
+    	color: $azul;
+    	max-height: 25px;
+    	max-width: 25px;
+    }
+}
+
+.invalid {
+	border-bottom: 1px solid #ff0052;
+}
+
+.form-group-input {
+	display: block;
+}
+
+.no-autocomplete {
+	color: #999;
+	padding: 8px;
+}
+.autocomplete {
+	border: 1px solid #999;
+	border-top-width: 0;
+	list-style: none;
+	margin-top: 0;
+	max-height: 143px;
+	overflow-y: auto;
+	padding-left: 0;
+	width: 100%;
+}
+.autocomplete li {
+ 	padding: 8px;
+}
+.autocomplete > .active,
+.autocomplete li:hover {
+	background-color: darkgray;
+	cursor: pointer;
+	font-weight: 700;
+}
+.autocomplete li:not( :last-of-type ) {
+ 	border-bottom: 1px solid #999;
+}

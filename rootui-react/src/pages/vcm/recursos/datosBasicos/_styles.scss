@@ -1,0 +1,82 @@
+h1,h2{
+    font-weight: bold;
+}
+.container-datos-basicos{
+
+    margin-top: 50px;
+    & label{
+        font-size: 15px;
+    }
+    .container-form{
+        width: 100%;
+        display: flex;
+        margin-bottom: 25px;
+        justify-content: space-between;
+        & form{
+            width: 45%;
+        }
+        & > div {
+            width: 40%;
+        }
+        .form-group{
+            margin-bottom: 25px;
+        }
+        .porcentaje{
+            font-size: 14px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        input[type="radio"]{
+            appearance: none;
+            background-color: #fff;
+            font: inherit;
+            width: 15px;
+            height: 15px;
+            border: 1px solid #6d6d6d;
+            border-radius: 50%;
+            &:checked{
+                background: #0c0c3d;
+                background: radial-gradient(circle, #0c0c3d 53%, rgba(255,255,255,0) 54%);
+            }
+        }
+        input[type=range]{
+            -webkit-appearance: none;
+            border-radius: 10px;
+            height: 4px;
+            width: 100%;
+            display: block;
+            margin: 5em auto;
+        }
+        /* Special styling for WebKit/Blink */
+        input[type=range]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            background: #EE8643;
+            cursor: pointer;
+            margin: 0px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+        }
+        
+        /* All the same stuff for Firefox */
+        input[type=range]::-moz-range-thumb {
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            background: #EE8643;
+            cursor: pointer;
+        }
+        
+        /* All the same stuff for IE */
+        input[type=range]::-ms-thumb {
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            background: #EE8643;
+            cursor: pointer;
+        }
+        .form-range{
+            margin: 0px !important;
+        }
+    }
+}

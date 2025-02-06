@@ -1,0 +1,63 @@
+.separador-bottom {
+	border-bottom: 1px solid #e9e4e4;
+}
+
+.boton-adjuntar {
+	width: 104px;
+}
+
+.contenedor-flex {
+	display: flex;
+
+	img {
+		height: 40px;
+    	margin-right: 15px;
+	}
+
+	.contenedor-hijo h2 {
+		margin-bottom: 0px;
+	}
+
+	.contenedor-info {
+		display: flex;
+		align-items: center;
+		margin-bottom: 10px;
+
+		h2 {
+			margin-top: 0px;
+			margin-bottom: 0px;
+			margin-right: 10px;
+		}
+
+		p {
+			margin: 0px;
+			margin-right: 10px;
+		}
+
+		.p-grande {
+			font-size: 17px;
+		}
+	}
+}
+
+/* ESTILOS DE LAS COLUMNAS DRAG AND DROP */
+
+.react-kanban-column {
+	max-height: 450px;
+    overflow-y: auto;
+    background-color: #f9f7f7 !important;
+}
+
+
+/* ESTILOS DEL POPUP - ECUALIZADORES DE PORCENTAJES */
+.popup-porcentajes {
+	label {
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	.alerta-ecualizador {
+		font-size: 13px;
+		color: red;
+	}
+} 

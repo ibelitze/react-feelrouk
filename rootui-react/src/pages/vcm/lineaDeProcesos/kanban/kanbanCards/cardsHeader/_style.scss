@@ -1,0 +1,27 @@
+.header-button{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+.header-icon{
+    width: 20px;
+    height: 20px;
+}
+.react-kanban-card__title{
+    padding: 0px;
+    border: 0px;
+    & span{
+        width: 100%;
+        font-weight: 600;
+        margin: 0px;
+        & span{
+            padding: 5px;
+            justify-content: space-between;
+            display: flex;
+            & h4{  
+                color: #fff;
+                font-size: 16px;
+            }
+        }
+    }
+}

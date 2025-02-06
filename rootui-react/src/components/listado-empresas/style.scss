@@ -1,0 +1,50 @@
+@import "../../../common-assets/css/variables";
+@import "../../../common-assets/css/rootui-parts/feelrouk-style";
+
+
+h2 {
+	font-weight: bold;
+}
+
+.reclutamiento-dropdown {
+	.dropdown-toggle:focus {
+		background: lightgrey !important;
+	}
+}
+
+.bolder {
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+.boton-table:hover, .boton-table:active, .boton-table:focus {
+	background: #fff !important;
+    border: none;
+    box-shadow: none;
+}
+
+.centrar {
+	margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+	.modal-grande {
+		min-width: 800px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.modal-grande {
+		min-width: 200px;
+	}
+}
+
+.editor-show {
+	background: #ededed;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.data-empresa {
+	font-weight: bold;
+}

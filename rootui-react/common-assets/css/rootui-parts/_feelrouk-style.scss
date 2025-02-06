@@ -1,0 +1,561 @@
+@import "../../../common-assets/css/variables";
+
+.flex {
+	display: flex;
+
+	p {
+		padding: 0px;
+		margin-bottom: 0px;
+		margin: 5px 6px 3px 5px;
+	}
+}
+
+.table thead th {
+	padding: 7px 15px;
+}
+
+.table th, .table td {
+	padding: 7px 15px;
+	vertical-align: middle;
+}
+
+.btn-warning {
+	background-color: $naranja;
+	border: 1px solid $naranja;
+
+	&:hover {
+		color: #fff;
+	}
+}
+
+.recuadro-data {
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+	padding: 25px;
+	border: 1px solid #d3d3d3;
+	margin: 0 auto;
+	text-align: left;
+
+	.btn {
+		margin-top: 15px;
+	}
+}
+
+.recuadro-elegido {
+	padding: 20px 5px;
+    margin: 0px;
+    text-align: left;
+    max-width: 300px;
+    background: #f9f9f9;
+
+    h2 {
+		font-size: 20px;
+    	margin-bottom: 5px;
+    }
+}
+
+.recuadro-breadcum {
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+	padding: 6px 10px;
+    border: 1px solid #d3d3d3;
+    margin: 0px;
+    text-align: left;
+    max-width: 200px;
+    height: 30px;
+
+    h2 {
+		font-size: 10px;
+	    color: #a5a5a5;
+	    margin: 2px auto;
+    }
+}
+
+.btn-feelrouk {
+	background-color: $azul;
+	margin-right: 3px;
+	padding: 8px;
+    height: 32px;
+    color: #fff;
+
+	&:hover {
+		background-color: $azul;
+		color: #fff;
+	}
+	svg {
+		color: #fff;
+	}
+}
+
+.btn-feelrouk2 {
+	background-color: $azul;
+	margin-right: 3px;
+	padding: 5px 12px;
+    height: 32px;
+    color: #fff;
+    border-radius: 18px;
+
+	&:hover {
+		background-color: $azul;
+		color: #fff;
+	}
+	svg {
+		color: #fff;
+	    width: 19px !important;
+	    height: 19px;
+	    padding-right: 5px;
+	}
+}
+
+.btn-feelrouk-naranja {
+	background-color: $naranja;
+	color: #fff;
+	margin-right: 3px;
+	padding: 8px;
+    height: 32px;
+
+	&:hover {
+		background-color: $naranja;
+		color: #fff;
+	}
+	svg {
+		color: #fff;
+	}
+}
+
+.btn-feelrouk-naranja2 {
+	background-color: #EE8643;
+    color: #fff;
+    padding: 6px 40px;
+    min-height: 33px;
+    border-radius: 14px;
+    border: none;
+    font-size: 14px;
+
+	&:hover {
+		background-color: $naranja;
+		color: #fff;
+	}
+	svg {
+		color: #fff;
+	}
+}
+
+.btn-dropdown {
+	background-color: #fff;
+	color: #a5a5a5;
+    border: 1px solid #d1cece;
+
+	&:hover {
+		background-color: #fff;
+		color: #a5a5a5;
+		border: 1px solid #d1cece;
+	}
+
+	svg {
+	    margin-left: 6px;
+	    width: 15px !important;
+	    height: 15px;
+	    color: #6c6b6b;
+	}
+}
+
+.btn-datatable {
+	background: #fff;
+	border: none;
+	max-width: 25px !important;
+	max-height: 45px;
+	display: flex;
+    justify-content: center;
+
+    &:hover {
+	  	background: #fff !important;
+		border: none !important;
+    }
+    &:active {
+	  	background: #fff !important;
+		border: none !important;
+    }
+    &:focus {
+	  	background: #fff !important;
+		border: none !important;
+    }
+}
+
+.btn-add-permiso {
+	background-color: #fff;
+	color: #a5a5a5;
+    border: 1px solid #d1cece;
+    padding: 0px;
+
+	svg {
+		width: 36px !important;
+	    height: 36px;
+	    color: $naranja;
+	}
+}
+
+.dropdown-feelrouk > :first-child {
+	border-bottom: 1px solid gray;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-radius: 0px;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active, 
+.btn-secondary:not(:disabled):not(.disabled).active, 
+.show > .btn-secondary.dropdown-toggle {
+	color: #a5a5a5;
+    background-color: #fff;
+    border-color: #d1cece;
+}
+
+.btn-secondary:focus, .btn-secondary.focus {
+	color: #fff;
+    background-color: #cccccd;
+    border-color: #b5b5b5;
+}
+
+.parte-con-fondo {
+	padding: 10px 7px;
+    background: #f9f9f9;
+}
+
+.modal-header {
+	background: #000033;
+	margin-bottom: 30px;
+
+	h5 {
+		font-size: 20px;
+	    color: #fff;
+	    font-weight: bold;
+	}
+	.close {
+		color: #fff;
+		font-size: 23px;
+	}
+}
+
+.header-blanco {
+	background: #fff;
+	margin-bottom: 0px;
+}
+
+.hidden {
+	display: none;
+}
+
+.text-centered {
+	text-align: center;
+}
+
+.icon-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+
+	svg {
+		width: 60px;
+		height: 60px;
+	}
+}
+
+.container-flex {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.label-permisos {
+	font-weight: bold;
+	color: #5c5a5a;
+}
+
+.container-cards {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 10px;
+
+	svg {
+		width: 15px !important;
+	    height: 17px;
+	    color: #6c6b6b;
+	}
+}
+
+.feelrouk-modal {
+
+	.modal-dialog {
+    	max-width: 540px;
+	}
+
+	.modal-header {
+		align-items: center;
+    	text-align: center;
+    	justify-content: center;
+	}
+
+	h1 {
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.tiempo-recorrido {
+		display: grid;
+		align-items: center;
+		justify-content: center;
+		margin: 15px auto;
+		border-radius: 50%;
+	    max-width: 120px;
+	    height: 120px;
+	    border: 1px solid $azul;
+	}
+
+	.numero {
+		text-align: center;
+    	font-size: 50px;
+    	max-height: 60px;
+	}
+
+	.segundos {
+		text-align: center;
+		margin-bottom: 10px;
+    	font-weight: bold;
+	}
+
+	.modal-footer {
+		justify-content: center;
+	}
+
+	.cerrar-sesion {
+		background: $azul;
+		border-radius: 20px;
+    	border: none;
+    	font-size: 14px;
+	}
+
+	.seguir-sesion {
+		background: $naranja;
+    	border-radius: 20px;
+    	border: none;
+    	font-size: 14px;
+	}
+}
+
+
+/* RECLUTAMIENTO HCM - CSS  */
+
+.title-publicaciones {
+	font-size: 16px;
+    font-weight: 600;
+    color: #000033;
+}
+
+.reclutamiento-dropdown {
+	background: #fff;
+	padding: 0px 15px;
+	margin-bottom: 10px;
+
+	button {
+		background: #fff;
+	    border: none;
+	    border-bottom: 1px solid gray;
+	    color: gray;
+	    border-radius: 0px;
+	}
+
+	button:hover {
+		background-color: #fff;
+		color: gray;
+	}
+
+	button:focus {
+		color: gray;
+	    background-color: #fff;
+	    border-color: #fff !important;
+	    border: 0px;
+	}
+
+	svg {
+	    width: 10px !important;
+	    height: 12px !important;
+	    margin-left: 10px;
+	}
+}
+
+.cantidad-dropdown {
+	background: #fff;
+	padding: 0px 15px;
+
+
+	button {
+		background: #fff;
+	    border: none;
+	    border-bottom: 1px solid gray;
+	    color: gray;
+	    border-radius: 0px;
+	}
+
+	button:hover {
+		background-color: #fff;
+		color: gray;
+	}
+
+	button:focus {
+		color: gray;
+	    background-color: #fff;
+	    border-color: #fff !important;
+	    border: 0px;
+	}
+
+	svg {
+	    width: 10px !important;
+	    height: 12px !important;
+	    margin-left: 10px;
+	}
+}
+
+.table-perfiles {
+	th, td {
+		border-top: 0px;
+	}
+
+	td.fondo-gris {
+		background: #ededed;
+	}
+
+	svg {
+	    margin-right: 7px;
+		height: 18px !important;
+    	width: 21px !important;
+	    cursor: pointer;
+	}
+}
+
+.trash-svg {
+	color: #000033;
+}
+.edit-svg {
+	color: #47e2fb;
+}
+.mostrar-svg {
+	color: #EE8643;
+}
+.punto-naranja {
+	color: #EE8643;
+	margin-left: 5px;
+}
+
+.input-hcm-formulario {
+    min-height: 36px;
+    padding: 7.5px 17px 9px;
+    background-color: #fbfcfc;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid gray;
+}
+
+.input-hcm-formulario::placeholder {
+	color: #000033;
+}
+
+
+.formulario-hcm-dropdown {
+	background: #fff;
+	padding: 0px;
+	margin-bottom: 10px;
+	width: 100%;
+
+	button {
+		background: #fff;
+	    border: none;
+	    border-bottom: 1px solid gray;
+	    color: gray;
+	    border-radius: 0px;
+	    width: 100%;
+	    color: #000033;
+	    font-size: 13px;
+	    text-transform: initial;
+	}
+
+	button:hover {
+		background-color: #fff;
+		color: gray;
+	}
+
+	button:focus {
+		color: gray;
+	    background-color: #fff;
+	    border-color: #fff !important;
+	    border: 0px;
+	}
+
+	svg {
+	    width: 10px !important;
+	    height: 12px !important;
+		position: absolute;
+	    right: 12px;
+	    color: #000033;
+	}
+}
+
+.align-elements-right {
+	display: flex;
+    justify-content: flex-end;
+}
+
+.recuadro-info-formulario {
+	box-shadow: 9px 10px 7px -7px rgba(125,125,125,0.6);
+	padding: 10px 14px;
+	border: 1px solid #f1f1f1;
+	margin-left: 25px;
+
+	h3 {
+	    margin-top: 10px;
+	    margin-left: 5px;
+	    font-weight: 800;
+	    font-size: 13px;
+	}
+
+	p {
+		margin-left: 5px;
+	}
+}
+
+.recuadro-hcm-modulo {
+	background: url("../../images/fondo-modulos.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+    padding: 30px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    border-radius: 6px;
+
+    img {
+    	height: 90%;
+    	width: auto;
+    }
+
+    .titulo-blanco {
+    	color: #fff;
+    	font-weight: 700;
+    	margin: 55px 0px 0px 0px;
+    }
+
+    .titulo-naranja {
+		font-weight: 700;
+		color: $naranja;
+    }
+}
+
+.editorClassName {
+	min-height: 300px;
+}
+
+.testing {
+	height: 80px;
+}

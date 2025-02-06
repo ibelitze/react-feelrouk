@@ -1,0 +1,8 @@
+.carga-productos-label{
+    width: 100%;
+    & div{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

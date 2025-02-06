@@ -1,0 +1,88 @@
+.header-habilitacion{
+    width: 100%;
+    & h3,label{
+        color: white;
+    }
+}
+.container-habilitacion{
+    display: flex;
+    width: 100%;
+    & select{
+        height: 30px;
+    }
+}
+.container-body-habilitacion{
+    border-bottom: 1px solid #bcbcbc;
+    padding-bottom: 15px;
+}
+.habilitacion-mod-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.habilitacion-mod-search__input{
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: 17px;
+}
+.search-body-habilitacion{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.container-dotaciones{
+    button{
+        margin-left: 10px;
+    }
+    margin-top: 50px;
+    h2 {
+        font-weight: 600;
+        margin-top: 30px;
+    }
+    .txt-orange{
+        color: #EE8643;
+    }
+    .btn-blue{
+        background-color: #0C0C3D;
+        font-weight: 600;
+        padding: 6px 40px !important;
+    }
+    .btn-blue:disabled{
+        background-color: #a2a2a3;
+    }
+    & > .recuadro-info-formulario{
+        margin-left: 0px;
+        padding: 0px 25px 50px;
+    }
+}
+.accordion-button{
+    margin: 0 !important;
+}
+.accordion-item{
+    background-color: #F3F3F3;
+    .accordion-body{
+        padding: 0px 30px 20px;
+    }
+}
+.dotaciones-precargadas-resumen{
+    div > p, h4{
+        font-weight: 600;
+    }
+}
+.container-title-acordion{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid #dcdcdc;
+    margin-bottom: 25px;
+    & .btn-orange{
+        padding: 6px 40px;
+        margin-left: 20px;
+    }
+}

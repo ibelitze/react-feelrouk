@@ -1,0 +1,137 @@
+.header-container{
+    width: 378px;
+}
+.header-button{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+.header-icon{
+    width: 20px;
+    height: 20px;
+}
+.header-title{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: 600;
+    margin: 0px;
+    color: #ffffff;
+}
+.yellow{
+    background-color: #f2b305;
+}
+.red{
+    background-color: #ee4343;
+}
+.green{
+    background-color: #00d38b;
+}
+.blue{
+    background-color: #0c0c3d !important;
+}
+// .header-tablero{
+//     padding: 0px 10px;
+// }
+.header-filtros{
+    padding: 12px 10px;
+    border-bottom: 1px solid #dcdcdc;
+    display: flex;
+    justify-content: space-around;
+    & .header-input{
+        width: 120px;
+        border-radius: 5px;
+    }
+}
+select{
+    border-color:#0c0c3d ;
+}
+.header-search{
+    border: 1px solid #0c0c3d;
+    background-color: #fff;
+    padding: 2px 5px;
+    border-radius: 5px;
+    & .header-input{
+        border: 0px;
+        width: 130px;  
+    }
+}
+.header-porcentajes{
+    display: flex;
+    width: 55%;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1.2;
+}
+.header-graficos{
+    padding: 0px 42px 0px 16px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.header-velocidad{
+    display: flex;
+    width: 43%;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1.2;
+    padding: 5px 10px;
+}
+.header-porcentajes__activos,
+.header-porcentajes__mod{
+    border-radius: 8px  ;
+    color: #fff;
+    padding: 8px 13px;
+    font-size: 10px;
+    width: 68px;
+    font-weight: 900;
+    background-color: #0c0c3d;
+    & h3{
+        font-size: 20px;
+        color: #fff;
+        line-height: 0.9;
+    }
+}
+.header-porcentajes__velocidad{
+    width: 75%;
+    & h3{
+        font-family: montserrat !important;
+        font-weight: 900;
+        color: #0c0c3d;
+    }
+}
+.container-costos{
+    display: flex;
+    justify-content: space-around;
+    & h3{
+        margin: 0px;
+        font-size: 25px;
+        color: #0c0c3d;
+    }
+    & span{
+        font-size: 12px;
+        color: #dcdcdc;
+        line-height: 0.1;
+    }
+}
+.costos{
+    flex-direction: column;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    & .circle{
+        border-radius: 50%;
+        height: 9px;
+        width: 9px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+}
+.container-canvas{
+    height: 20px;
+    width: 100%;
+}
