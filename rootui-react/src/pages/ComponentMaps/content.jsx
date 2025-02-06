@@ -39,7 +39,7 @@ class Content extends Component {
                 >
                     <LoadScript
                         id="script-loader"
-                        googleMaps=""
+                        googleMps=""
                     >
                         <GoogleMap
                             mapContainerClassName="rui-gmap"
